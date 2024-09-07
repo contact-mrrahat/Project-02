@@ -1,0 +1,674 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  
+}
+
+/* Common Css Start */
+
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+ 
+.common_button a {
+    color: #FFFFFF;
+    background-color:  #F40404;
+    border:1px solid transparent;
+    padding: 13px 40px;
+    font-weight: 600;
+    display: inline-block;
+    transition: .5s;
+}
+
+.common_button a:hover {
+  border-color: #FFFFFF;
+  background-color: transparent;
+}
+/* Common Css End */
+
+/* ==============Nav Part Start ================== */
+nav{
+    background: #F40404;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+.content{
+   
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+    
+}
+
+.logo{
+    width: 20%;
+}
+
+.manubar{
+    width: 60%;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 72px;
+}
+
+.manubar ul {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 47px;
+    color: #ffffff;
+   
+}
+
+.manubar ul li{
+    transition: .4s;
+}
+
+.manubar ul li:hover{
+    color: rgb(190, 241, 94);
+}
+
+.button{
+    width: 20%;
+    
+    
+}
+
+.button a{
+    color:#ffffff;
+    border:1px solid white;
+    padding: 13px 32px;
+    font-weight: 600;
+    transition: .5s;
+    
+}
+
+.button a:hover{
+   background-color: rgb(183, 0, 255);
+}
+
+
+/* ==============Nav Part End ================== */
+
+
+/* ==============Banner Part Start ================== */
+
+.banner{
+    background-image: url(./Img/bannar.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 256px 0;
+    
+}
+
+.banner h1{
+    color: #FFFFFF;
+    width: 840px;
+    font-size: 64px;
+    font-weight: 600;
+    padding-bottom: 31px;
+    
+}
+
+/* ==============Banner Part End ================== */
+/* ==============Welcome Part Start ================== */
+
+.content_1{
+        display: flex;
+        column-gap: 178px;
+        margin-top: 78px;
+        align-items: center;
+        margin-bottom: 100px;
+
+    }
+
+.content_1c1{
+    width: 40%;
+}
+.content_1c2{
+    width: 60%;
+}
+
+.content_1c1 h1{
+    font-size: 48px;
+    font-weight: 600;
+    width: 300px;
+}
+
+.content_1c2 p{
+    font-size:16px;
+    margin: auto;
+    color: #6C6C6C;
+    width: 627px;
+}
+
+
+/* ==============Welcome Part END ================== */
+/* ==============Slider Part Start ================== */
+
+.slider_img{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* ==============Slider Part End ================== */
+/* ==============Service Part Start ================== */
+
+
+  
+    .service_contant{
+        display: flex;
+        margin-top: 24px;
+       
+       
+
+    }
+
+    .service_card1{
+        width: 50%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        margin-right: 47px;
+        
+    
+    }
+
+.service_card1 .c h1{
+ font-size: 64px;
+ font-weight: 600px;
+
+}
+.service_card1 .c p{
+ font-size: 14px;
+ font-weight: 600px;
+ width: 300px;
+
+}
+.service_contant2{
+    display: flex;
+}
+    .service_card2{
+        width: 50%;
+        background-image:url(./Img/Service_img1.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 400px;
+        position: relative;
+        overflow: hidden;
+        
+    }
+
+    .service_card2 .overlay{
+        background: rgba(0, 0, 0, 0.5);
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 0;
+        right: -100%;
+        transition: .5s;
+        
+
+        
+    }
+    .service_card2 .overlay a{
+        color: #FFFFFF;
+        display: inline-block;
+        margin-top: 17px;
+        
+    }
+
+    .service_card2:hover .overlay{
+        overflow: visible;
+        width: 100%;
+        right: 0;
+    }
+  
+    
+    .service_card2 .overlay h1{
+        color: #FFFFFF;
+    }
+
+    .service_card3{
+        width: 50%;
+        background-image:url(./Img/Service_img2.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 400px;
+        position: relative;
+        overflow: hidden;
+
+    }
+
+    .service_card3 .overlay{
+        background: rgba(0, 0, 0, 0.5);
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 0;
+        right: -100%;
+        transition: .5s;
+    }
+     
+    .service_card3 .overlay a{
+        color: #FFFFFF;
+        display: inline-block;
+        margin-top: 17px;
+        
+    }
+
+    .service_card3:hover .overlay{
+        overflow: visible;
+        width: 100%;
+        right: 0;
+    }
+  
+    
+    .service_card3 .overlay h1{
+        color: #FFFFFF;
+    }
+    
+    .service_card4{
+        width: 50%;
+        background-image:url(./Img/Service_img3.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 400px;
+        position: relative;
+        overflow: hidden;
+    }
+    .service_card4 .overlay{
+        background: rgba(0, 0, 0, 0.5);
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 0;
+        right: -100%;
+        transition: .5s;
+    }
+     
+    .service_card4 .overlay a{
+        color: #FFFFFF;
+        display: inline-block;
+        margin-top: 17px;
+        
+    }
+
+    .service_card4:hover .overlay{
+        overflow: visible;
+        width: 100%;
+        right: 0;
+    }
+  
+    
+    .service_card4 .overlay h1{
+        color: #FFFFFF;
+    }
+
+/* ==============Service Part End ================== */
+/* ==============About Part Start ================== */
+.about{
+    background: #F0F0F0;
+}   
+
+.about_contant{
+        display: flex;
+        width: 100%;
+        padding: 136px 0;
+    }
+    .about_part1{
+        width: 40%;
+        padding: 100px 75px;
+        background: red;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .about_part1 h1{
+        color: #FFFFFF;
+        width: 185px;
+        font-size: 32px;
+        font-weight: 600;
+    }
+    .about_part2{
+        width: 60%;
+        
+        background-image: url(./Img/About_img.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    .about_part2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about_part2 .common_button a{
+        color: #F40404;
+        background: #ffffff;
+        
+    }
+/* ==============About Part End ================== */
+
+/* ==============LoGO Part Start ================== */
+    
+.brand_contant{
+    display: flex;
+    padding: 117px 0;
+}
+
+.brandLogoImg{
+        padding: 117px auto;
+
+    }
+
+/* ==============LoGO Part End ================== */
+/* ==============GroupImg Part Start ================== */
+.group_img{
+    background: #F0F0F0;
+}
+.group_imgContant{
+    display: flex;
+    justify-content: space-between;
+    gap:60px;
+    padding-top: 110px;
+}
+
+.group_imgCard1{
+
+    background-image: url(./Img/Group_img1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    
+    
+}
+
+.group_imgCard1 h1{
+    padding-top: 75px;
+    font-size: 24px;
+    font-weight: 600;
+    color: #FFFFFF;
+    width: 224px;
+    padding-bottom: 52px
+}
+
+.overlay1{
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    right:-340px;
+    transition: .5s;
+}
+
+.group_imgCard1:hover .overlay1{
+    right: 0;
+    overflow: visible;
+}
+.group_imgCard2{
+
+    background-image: url(./Img/Group_img2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    
+}
+.group_imgCard2 h1{
+    padding-top: 75px;
+    font-size: 24px;
+    font-weight: 600;
+    color: #FFFFFF;
+    width: 224px;
+    padding-bottom: 52px
+}
+
+.group_imgCard2:hover .overlay1{
+    right: 0;
+    overflow: visible;
+}
+.group_imgCard3{
+
+    background-image: url(./Img/Group_img3.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+
+}
+.group_imgCard3 h1{
+    padding-top: 75px;
+    font-size: 24px;
+    font-weight: 600;
+    color: #FFFFFF;
+    width: 224px;
+    padding-bottom: 52px
+}
+
+.group_imgCard3:hover .overlay1{
+    right: 0;
+    overflow: visible;
+}
+
+
+.group_imgTxt h4{
+    text-align: right;
+    font-size: 16px;
+    font-weight: 600;
+    padding-top: 29px;
+    padding-bottom: 109px;
+}
+
+/* ==============GroupImg Part End ================== */
+/* ==============Map Part Start ================== */
+    .map_contant iframe{
+        width: 100%;
+        height: 450px ;
+    }
+
+/* ==============Map Part End ================== */
+/* ==============contactTwo Part Start ================== */
+
+    .contactTwo{
+        background: #F40404;
+    }
+
+    .contactTwo_contant{
+        display: flex;
+    }
+
+    .contactTwo_contant1{
+        width: 80%;
+    }
+
+    .contactTwo_contant1 h1{
+        font-size: 36px;
+        font-weight: 600;
+        color: #FFFFFF;
+        padding: 46px 0;
+    }
+    .contactTwo_contant2{
+        width: 20%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .contactTwo_contant2 .cnt_button a{
+        color: white;
+        background-color: red;
+        border: 2px solid white;
+        padding: 13px 31px;
+        transition: .5s;
+    }
+
+    .contactTwo_contant2 .cnt_button a:hover{
+        background-color: aqua;
+    }
+
+/* ==============contactTwo Part End ================== */
+
+
+/* ==============Footer Part Start ================== */
+
+
+    footer{
+        background: #1F1F1F;
+    }
+
+    .container_contant{
+        display: flex;
+        padding-bottom: 170px;
+    }
+
+    .pertroil
+    {
+        width: 25%;
+        
+    }
+
+    .logo_ptro{
+        padding-top: 149px;
+        padding-bottom:33px ;
+    }
+    .ptroAddress{
+        color: #FFFFFF;
+        display: flex;
+        flex-direction: column;
+        row-gap: 15px;
+    }
+
+    .ptroAddress p{
+        font-size: 14px;
+        font-weight:400;
+        /* padding: 15px 0; */
+    }
+
+    .ptroAddress i {
+        padding: 5px;
+    }
+
+.socail_media{
+    padding-top: 30px;
+    display: flex;
+    column-gap: 12px;
+    
+}
+
+
+
+.company{
+    width: 50%;
+    display: flex;
+    padding-top: 149px;
+    column-gap: 130px;
+    justify-content: center;
+    align-items: center;
+}
+.company1 h2{
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 600;
+    padding-bottom: 15px;
+}
+.company1 ul{
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+
+
+.company2 h2{
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 600;
+    padding-bottom: 15px;
+}
+.company2 ul{
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.certificate{
+    width: 25%;
+    padding-top: 186px;
+   
+}
+
+.certificate h2{
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 600;
+    padding-bottom: 21px;
+}
+
+
+
+/* ==============Footer Part End ================== */
+
+/* ==============Copyright Part Start ================== */
+
+.copyright{
+    background: #282828;
+    padding:42px ;
+}
+
+.copyright h3{
+    color: #6C6C6C;
+    font-weight: 400;
+    font-size: 16px;
+    margin-left: 340px;
+}
+
+/* ==============Copyright Part End ================== */
